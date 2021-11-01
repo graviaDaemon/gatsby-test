@@ -23,10 +23,9 @@ collections:
     label: "Profile"
     folder: "content/profile"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
-    summary: "{{profilepicture}} {{name.firstname}} {{name.lastname}} || {{dateofbirth}}"
+    summary: "{{name.firstname}} {{name.lastname}}"
     fields:
 #      - { label: "Title", name: "title", widget: "string" }
       - label: Name
