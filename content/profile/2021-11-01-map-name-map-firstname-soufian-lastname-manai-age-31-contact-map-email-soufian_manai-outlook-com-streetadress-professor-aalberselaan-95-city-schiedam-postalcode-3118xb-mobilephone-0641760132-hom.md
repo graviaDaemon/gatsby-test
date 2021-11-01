@@ -9,7 +9,7 @@ contact:
   city: Schiedam
   postalcode: 3118XB
   mobilephone: "0641760132"
-  homephone: 010 nothig
+  homephone: ""
 description: A simple profile for myself. Styling would be helpful in the
   preview or the actual site. But I guess there's only so much one can do with
   this?
