@@ -13,5 +13,5 @@ contact:
   homephone: ""
 description: "A simple profile for myself. Styling would be helpful in the
   preview or the actual site. But I guess there's only so much one can do with
-  this? "
+  this?  "
 ---
