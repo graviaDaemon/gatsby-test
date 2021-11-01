@@ -3,7 +3,7 @@ name:
   firstname: Soufian
   lastname: Manai
 age: 31
-dateofbirth: 61 08 90
+dateofbirth: 06-08-1990
 contact:
   email: soufian_manai@outlook.com
   streetadress: Professor Aalberselaan 95
