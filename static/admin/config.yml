@@ -18,3 +18,35 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "profile"
+    label: "Profile"
+    folder: "content/profile"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    summary: "{{profilepicture}} {{name.firstname}} {{name.lastname}} || {{dateofbirth}}"
+    fields:
+#      - { label: "Title", name: "title", widget: "string" }
+      - label: Name
+        name: name
+        widget: object
+        collapsed: false
+        fields:
+          - { label: "First Name", name: "firstname", widget: "string" }
+          - { label: "Last Name", name: "lastname", widget: "string" }
+      - { label: "Date of Birth", name: "dateofbirth", widget: "date", format: "DD-MM-YYYY", time_format: false, default: '' }
+      - label: Contact
+        name: contact
+        widget: object
+        collapsed: true
+        fields:
+          - { label: "E-mail", name: "email", widget: "string" }
+          - { label: "Street Adress", name: "streetadress", widget: "string" }
+          - { label: "City", name: "city", widget: "string" }
+          - { label: "Postal Code", name: "postalcode", widget: "string" }
+          - { label: "Mobile Phone", name: "mobilephone", widget: "string" }
+          - { label: "Home Phone", name: "homephone", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Profile Picture", name: "profilepicture", widget: "image", allow_multiple: false}
