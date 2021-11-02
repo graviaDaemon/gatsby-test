@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: master
+  tenant_id: tenantId
+  app_id: someAppId
 
 media_folder: static/img
 public_folder: /img
@@ -50,3 +52,16 @@ collections:
           - { label: "Home Phone", name: "homephone", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Profile Picture", name: "profilepicture", widget: "image", allow_multiple: false}
+  - name: "settings"
+    label: "Settings"
+    files:
+      - label: "Contact Info"
+        name: "contactinfo"
+        file: site/settings/contact_info.json
+        fields:
+          - { label: "E-mail", name: "email", widget: "string" }
+          - { label: "Street Adress", name: "streetadress", widget: "string" }
+          - { label: "City", name: "city", widget: "string" }
+          - { label: "Postal Code", name: "postalcode", widget: "string" }
+          - { label: "Mobile Phone", name: "mobilephone", widget: "string" }
+          - { label: "Home Phone", name: "homephone", widget: "string", required: false }

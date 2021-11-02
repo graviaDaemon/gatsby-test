@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `SRM Development`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Soufian R. Manai`,
+      summary: `A junior developer working with Gatsby, Netlify, Netlify-CMS, Git, Laravel, VueJS, Flutter, and many more different frameworks`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `@srmdevelopment`,
     },
   },
   plugins: [

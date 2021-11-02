@@ -7,7 +7,9 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  const posts = data.allMarkdownRemark.nodes;
+
+  // const clientId = "d5ed9228-d6cc-454d-8690-43ab0a07a341";
 
   if (posts.length === 0) {
     return (
