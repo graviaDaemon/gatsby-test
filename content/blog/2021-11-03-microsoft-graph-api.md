@@ -11,3 +11,8 @@ So far, that is how far I've gotten. Even after installing the various packages 
 Now all I'm left with is a menial static website grabbed from a template and worked with Netlify-CMS to make these blog posts.
 
 I've changed my description and such in the main page, sure. But it didn't take many changes for that to happen.
+
+The documentations I've found were these websites:  
+- (make a plugin)[https://www.gatsbyjs.com/plugins/gatsby-source-microsoft-graph]
+- (Microsoft Docs)[https://docs.microsoft.com/en-us/graph/toolkit/get-started/use-toolkit-with-react]
+- (More Microsoft Docs)[https://docs.microsoft.com/en-us/graph/tutorials/react]
