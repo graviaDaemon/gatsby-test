@@ -28,6 +28,10 @@ const Layout = ({ location, title, children }) => {
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
+          {` `}
+          edited by
+          {` `}
+          <a href="https://www.linkedin.com/in/soufian-manai-b083a2a3/">SRM Development</a>
       </footer>
     </div>
   )
